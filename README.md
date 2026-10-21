@@ -60,3 +60,12 @@ It writes prompts for the smallest useful set of reference images, explains what
 5. **Generate and refine.** Bring the result back into chat and explain what needs changing. The skills return complete revised prompts you can paste back into Weave.
 
 For a simple video, you can skip references and start with a text-only prompt. You don’t need the full production workflow every time.
+
+## Getting better results
+
+| Topic | What to share or consider |
+| --- | --- |
+| **Your starting brief** | Describe the idea, target model, duration, aspect ratio, and any images, clips, or other assets you already have. If you’re unsure about a choice, ask the producer to help work it out. |
+| **Your starting point** | Start from text for a quick concept, animate an existing first frame, or build a workflow using references for characters, locations, and props. The producer can help choose the approach based on your goal and the inputs available in your Weave node. |
+| **What needs to stay consistent** | Explain which details must stay exact, which are preferences, and which the skills can explore. These might include a character’s face, wardrobe, product shape, dialogue, or scene layout. |
+| **Finishing details** | For exact logos, typography, or product UI, plan to use supplied assets or add them in a compositing pass. Include those requirements early so the shots leave room for them. |
