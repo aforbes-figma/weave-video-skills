@@ -1,0 +1,14 @@
+interface:
+  display_name: Weave Video Producer
+  short_description: Direct AI clips for H3 and Seedance
+  default_prompt: Use $weave-video-producer to turn this idea into a generation-ready
+    AI video prompt.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

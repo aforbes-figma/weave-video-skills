@@ -1,0 +1,14 @@
+interface:
+  display_name: Reference Maker
+  short_description: Build production-ready AI image references
+  default_prompt: Use $reference-maker to plan and prompt the reference images for
+    this video.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: Character Sheet Builder
+  short_description: Build consistent AI-video character reference sheets
+  default_prompt: Use $character-sheet-builder to design a Seedance-ready character
+    sheet for this character.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
