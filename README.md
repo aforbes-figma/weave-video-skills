@@ -1,8 +1,6 @@
 # Figma Weave - Video Production Toolkit
 
-Video production skills that help you turn rough ideas into the prompts and references you need to make high quality videos in Figma Weave.
-
-The three skills work together to guide story development, camera work, lighting, timing, and character consistency. Work through an idea in chat, then copy the prompts into Weave to generate and assemble the images and video.
+Video production skills that help you turn rough ideas into the prompts and references you need to make high quality videos in Figma Weave. The three skills work together to guide story development, camera work, lighting, timing, and character consistency. Work through an idea in chat, then copy the prompts into Weave to generate and assemble the images and video.
 
 ## Meet the production team
 
