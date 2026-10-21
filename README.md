@@ -1,10 +1,8 @@
-# Make your own little movies in Weave
+# Figma Weave - Video Production Toolkit
 
-I started playing with Weave to learn how to use it and ended up building myself a little production team.
+Video production skills that help you turn rough ideas into the prompts and references you need to make high quality videos in Figma Weave.
 
-These three skills help turn a rough idea into the prompts and references you need to make a video. They bring in filmmaking decisions—camera work, lighting, timing, character consistency—that I wouldn’t necessarily know to ask for.
-
-You work through the idea in chat, then copy the prompts into Weave to generate the images and video. The skills produce prompts and guidance; you generate and assemble the media in Weave.
+The three skills work together to guide story development, camera work, lighting, timing, and character consistency. Work through an idea in chat, then copy the prompts into Weave to generate and assemble the images and video.
 
 ## Meet the production team
 
@@ -28,7 +26,7 @@ These are complete skill folders, including the reference files they use. Downlo
 
 > Use my weave-video-producer skill. I want to make a 10-second cinematic video of me racing through Tokyo at night. Help me work out the shots and references. I’ll generate everything in Weave.
 
-## How I use them
+## How it works
 
 1. **Start with an idea.** Describe what you want to make, the style, and anything you already have in mind.
 2. **Work out the shots.** Go back and forth with the producer on what happens, how it’s filmed, and how much can fit into the clip.
