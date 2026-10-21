@@ -10,19 +10,46 @@ Video production skills that help you turn rough ideas into the prompts and refe
 | **[Character Sheet Builder](skills/character-sheet-builder/SKILL.md)** | Define characters and wardrobe, then write prompts for references to help keep them consistent across shots. |
 | **[Reference Maker](skills/reference-maker/SKILL.md)** | Plan locations, cars, props, and scene composition. Write prompts for useful references before adding motion. |
 
-## Get started in Codex
+## Using the skills
 
-You’ll need Codex, access to this private repository, and access to Weave and your chosen generation model.
+Install all three skills in an assistant that supports skills, then start with Video Producer. You’ll also need access to Figma Weave and your chosen generation model.
 
-1. Copy this repository’s GitHub URL.
-2. In Codex, ask: “Use skill-installer to install all three skills from this repository: [paste the repository URL]. The folders are skills/weave-video-producer, skills/character-sheet-builder, and skills/reference-maker. Include all supporting files.”
-3. Confirm that all three skills appear in your available skills. If they don’t appear, restart Codex.
+- **Download the files:** Choose **Code → Download ZIP** on this repository, unzip it, and follow your assistant’s instructions for installing the three folders inside `skills/`. Include each folder’s supporting files.
+- **Use a skill installer:** Point your assistant’s installer to this repository and ask it to install all three skills. For example:
 
-These are complete skill folders, including the reference files they use. Downloading the repository or attaching a ZIP to a chat is not the same as installing the skills. Other assistants may support these files, but their setup steps differ; this guide covers Codex.
+> Install weave-video-producer, character-sheet-builder, and reference-maker from https://github.com/aforbes-figma/weave-video-skills. They’re in the skills/ directory. Include all supporting reference files.
+
+Installation steps vary by assistant. Once installed, you can call a skill by name or describe what you want to make.
 
 ## Try this
 
+**A cinematic action clip**
+
 > Use my weave-video-producer skill. I want to make a 10-second cinematic video of me racing through Tokyo at night. Help me work out the shots and references. I’ll generate everything in Weave.
+
+**A simple clip without references**
+
+> Use my weave-video-producer skill. Help me plan an 8-second video of a tiny robot trying to carry an oversized coffee across a desk. Keep it playful, with two shots and no dialogue. Start with a text-only prompt I can run in Weave.
+
+## What each skill does
+
+### Video Producer
+
+Turns a rough idea into a production plan: what happens, how the shots connect, where the camera moves, and how the action and dialogue fit the runtime. It helps choose between a simple text-only approach and a workflow built around references, then brings in the other skills when needed.
+
+The output is a copy-ready video prompt adapted to the chosen model, with timing, camera direction, performance, audio guidance, and reference mappings where relevant. If a result needs work, bring it back for review and a complete revised prompt.
+
+### Character Sheet Builder
+
+Helps define a character’s appearance, proportions, wardrobe, and the details that need to stay consistent. It can work from a description or supplied photos and guides decisions that affect the planned shots.
+
+It writes prompts for character sheets and focused references, such as a face, outfit, or expression. Each reference has a clear job, so the video model has fewer competing details to interpret. It also helps diagnose and repair character drift between generations.
+
+### Reference Maker
+
+Plans the visual building blocks around the character: locations, products, props, lighting, composition, and key starting or ending frames. It can place an approved character into a scene while preserving the character reference’s identity and wardrobe.
+
+It writes prompts for the smallest useful set of reference images, explains what each image controls, and gives them stable Weave node names. The aim is to get the scene and composition right before spending time on motion.
 
 ## How it works
 
